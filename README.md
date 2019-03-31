@@ -1,2 +1,2 @@
 # leK-4.2
-Homework #4.2. Making simple Tamagochi.
+Homework #4.2. Making simple Tamagotchi.
