@@ -261,29 +261,29 @@ function Pet (petName, id) { // a tamagotchi pet class; implements pet's very ow
   this.howAreYou = function () { // tells how the pet feels
     console.log('I\'m ' + name + ', and ::')
 
-    console.log('- i\'m hungry for ' + state.hunger + '%. '
-      + (state.hunger > 60 ? 'I feel hungry! Please, .p.feed(%) me now!' : ''))
+    console.log('- i\'m hungry for ' + state.hunger + '%. ' +
+      (state.hunger > 60 ? 'I feel hungry! Please, .p.feed(%) me now!' : ''))
 
-    console.log('- i\'m thirsty for ' + state.thirst + '%. '
-      + (state.thirst > 60 ? 'I feel thirsty! Please, .p.water(%) me now!' : ''))
+    console.log('- i\'m thirsty for ' + state.thirst + '%. ' +
+      (state.thirst > 60 ? 'I feel thirsty! Please, .p.water(%) me now!' : ''))
 
-    console.log('- i\'m sleepy for ' + state.sleepiness + '%. '
-      + (state.sleepiness > 60 ? 'I feel sleepy. Please, let me .p.sleep(%) for a while!' : ''))
+    console.log('- i\'m sleepy for ' + state.sleepiness + '%. ' +
+      (state.sleepiness > 60 ? 'I feel sleepy. Please, let me .p.sleep(%) for a while!' : ''))
 
-    console.log('- i\'m dirty for ' + state.dirt + '%. '
-      + (state.dirt > 30 ? 'I got dirty. Please, give me a .p.bath()!' : ''))
+    console.log('- i\'m dirty for ' + state.dirt + '%. ' +
+      (state.dirt > 30 ? 'I got dirty. Please, give me a .p.bath()!' : ''))
 
-    console.log('- i\'m ill for ' + Math.trunc(state.illness) + '%. '
-      + (Math.trunc(state.illness) > 30 ? 'I feel sick! Please, .p.heal() me now!' : ''))
+    console.log('- i\'m ill for ' + Math.trunc(state.illness) + '%. ' +
+      (Math.trunc(state.illness) > 30 ? 'I feel sick! Please, .p.heal() me now!' : ''))
 
-    console.log('- I feel stuffy for ' + state.stuffiness + '%. '
-      + (state.stuffiness > 60 ? 'I need some fresh air. Please, go for a .p.walk(%) with me!' : ''))
+    console.log('- I feel stuffy for ' + state.stuffiness + '%. ' +
+      (state.stuffiness > 60 ? 'I need some fresh air. Please, go for a .p.walk(%) with me!' : ''))
 
-    console.log('- i\'m bored for ' + state.boredom + '%. '
-      + (state.boredom > 50 ? 'I feel bored. Please, .p.play(%) or go for a .p.walk(%/2) with me!' : ''))
+    console.log('- i\'m bored for ' + state.boredom + '%. ' +
+      (state.boredom > 50 ? 'I feel bored. Please, .p.play(%) or go for a .p.walk(%/2) with me!' : ''))
 
-    console.log('- i\'m scared for ' + state.fright + '%. '
-      + (state.fright > 50 ? 'I feel scared! .p.sleep(%*2), .p.play(%) or .p.walk(%/2) will help.' : ''))
+    console.log('- i\'m scared for ' + state.fright + '%. ' +
+      (state.fright > 50 ? 'I feel scared! .p.sleep(%*2), .p.play(%) or .p.walk(%/2) will help.' : ''))
   }
 
   console.log(
